@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./login.js"></script>
+</head>
+
+<body style="display: flex; flex-direction: row; justify-content: center;">
+    <div class="tela">
+        <div style="display: flex; flex-direction: row; width: 150px; justify-content: space-evenly;">
+            <h1 class="h1">Sign</h1>
+            <h1 class="h1" style="color: #FF1E1E;"> In</h1>
+        </div>
+        <div class="inputs">
+            <form method="POST" name="form" onsubmit="return verifica()" action="">
+                <input type="email" name="a" class="input" id="a" placeholder="Nome">
+                <input type="email" name="b" class="input" id="b" placeholder="Email">
+                <input type="senha" name="c" class="input" id="c" placeholder="Senha">
+                <input type="senha" name="d" class="input" id="d" placeholder="Confirme sua senha">
+            </form>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; padding-top: 50px;">
+            <button id="" class="button" onclick="verifica()">Sing In</button>
+            <a href="./pag_login.html" class="link"><small>Já possui uma conta?</small></a>
+        </div>
+
+</div>
+</body>
+
+</html>
